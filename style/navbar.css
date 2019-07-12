@@ -1,0 +1,34 @@
+.navitem{
+
+}
+#one {
+  background-color:pink;
+  border: 2px solid black;
+  margin:0px 1050px 10px 50px;
+  }
+#two {
+background-color: yellow;
+border: 2px solid black;
+  margin:0px 1050px 10px 50px;
+}
+#three{
+background-color:lightyellow;
+border: 2px solid black;
+  margin:0px 1050px 10px 50px;
+}
+#four {
+  background-color:hotpink;
+  border: 2px solid black;
+    margin:0px 1050px 10px 50px;
+}
+#five {
+  background-color: salmon;
+  border: 2px solid black;
+    margin:0px 1050px 10px 50px;
+}
+
+.maintitle{
+justify-content: center;
+background-color: yellow
+color: hotpink;
+}
