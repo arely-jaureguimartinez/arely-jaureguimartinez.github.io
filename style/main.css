@@ -1,45 +1,181 @@
 
-body {
+.body {
   background-color: #F0BC2E;
+  border: 2px solid black;
 }
 
+
+.header{
+  background-color: lightpink;
+  width: 205px;
+  border: 5px solid hotpink;
+  height: 80px;
+  margin-left: 475px;
+
+}
 
 
 .gallery {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 0fr 0fr 0fr 0fr;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr 1fr
+  width: 350px;
+  height: 880px;
+
 }
 
 .sun{
-  width: 100px;
-  height: 175px;
-  grid-column: 1 / 3;
-  grid-row: 1;
-
+  width: 200px;
+  height: 275px;
+  grid-column: 3/8;
+    grid-row: 3;
+margin-right:65px;
 }
 .dbz{
   width: 400px;
   height:225px;
-  padding: 25px 25px 75px 50px;
-
+  grid-column: 2/4;
+    grid-row: 2/3;
 
 }
 .guadalupe{
   width:175px;
-  height: 350px;
-  float: right;
+  height: 275px;
+  grid-column: 1;
+    grid-row: 1 / 5;
   border:2px dashed grey;
 
 }
+.bulma{
+  grid-column: 3/4;
+  grid-row: 2;
+  margin-left: 150px;
 
-input #email {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  background-color: #3CBC8D;
-  color: white;
+  border:2px solid hsl(315, 40%, 55%);
+}
+.aladdin{
+  grid-column: 4/ 4;
+  grid-row: 2/5;
+  border:2px dashed grey;
+  margin-bottom: 75px;
+}
+.laluna{
+  grid-column: 1/5;
+  grid-row: 3;
+  border:2px solid hsl(225, 25%, 50%);
+  margin-left:190px;
+
+}
+.tigger{
+  grid-column: 1;
+    grid-row: 2;
+  border:2px solid hotpink;
+  background-color: lightpink;
+  margin-top: 95px;
+}
+
+.spongebubble{
+  grid-column: 3/4;
+    grid-row: 2;
+    margin-left: 85px;
+    margin-top: 165px;
+}
+.sbchill{
+  grid-column: 3/4;
+  grid-row: 1;
+  display:
+}
+.lovejuice{
+  grid-column: 2/4;
+    grid-row: 2;
+    margin-left: 85px;
+    margin-top:220px;
+}
+.catbeach{
+  grid-column: 4/5;
+    grid-row: 2;
+    margin-left: 85px;
+    margin-top: 165px;
+}
+.winnie{
+  grid-column: 4/6;
+  grid-row: 1;
+  margin-right:0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.navitem{
+  background-color:pink;
+  border: 2px solid black;
+  width: 175px;
+  height: 25px;
+  border: 2px solid black
+
+}
+
+ul {
+  display: inline-flex;
+}
+li{
+   display: inline;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration:none;
+   font-style: oblique;
+   font
+ }
+
+ li a:hover {
+   background-color: #111;
+ }
+
+
+
+
+
+
+
+#one {
+  background-color:pink;
+  align-content: center;
+
+
+  }
+#two {
+background-color: yellow;
+
+
+}
+#three{
+background-color:lightyellow;
+
+
+
+}
+#four {
+  background-color:hotpink;
+
+
+}
+#five {
+  background-color: salmon;
+}
+.resume{
+  color:Orange;
+  background-color: hsl(125, 67%, 95%);
+  width:225px;
+  height: px;
+  font-size: 55px;
 }
