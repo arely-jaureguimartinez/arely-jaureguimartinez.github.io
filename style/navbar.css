@@ -1,34 +1,118 @@
 .navitem{
-
-}
-#one {
   background-color:pink;
   border: 2px solid black;
-  margin:0px 1050px 10px 50px;
+  width: 175px;
+  height: 25px;
+  border: 2px solid black
+
+}
+
+.chilldude{
+  border: 2px solid purple;
+  float:right;
+}
+.chillpoem{
+  float: left;
+  margin-left: 45px;
+  border: 3px dotted black;
+}
+ul {
+  display: inline-flex;
+}
+li{
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ li a:hover {
+   background-color: #452;
+ }
+}
+}
+
+#one {
+  background-color:pink;
+  align-content: center;
+
+
   }
 #two {
 background-color: yellow;
-border: 2px solid black;
-  margin:0px 1050px 10px 50px;
+
+
 }
 #three{
 background-color:lightyellow;
-border: 2px solid black;
-  margin:0px 1050px 10px 50px;
+
+
+
 }
 #four {
   background-color:hotpink;
-  border: 2px solid black;
-    margin:0px 1050px 10px 50px;
+
+
 }
 #five {
   background-color: salmon;
-  border: 2px solid black;
-    margin:0px 1050px 10px 50px;
+
+
 }
 
 .maintitle{
-justify-content: center;
-background-color: yellow
-color: hotpink;
+margin-left: 500px;
+background-color: hotpink;
+width: 225px;
+}
+
+.words{
+  border: 2px solid black;
+  border-radius:20px;
+  width: 200px;
+}
+.palabras{
+  background-color: lightyellow;
+  width:400px;
+  border: 2px dashed grey;
+  margin-left: 45px;
+  float: left;
+}
+.dos{
+  background-color: lightyellow;
+  width:200px;
+  border: 2px dashed grey;
+  margin-left:20px;
+margin-top:15px;
+margin-right: 0px;
+  float:left;
+  padding-left: 15px;
+}
+.pooh{
+  float:
+}
+.sonnet130{
+  background-color:lightpink;
+  border:2px solid hotpink;
+  width: 375px;
+  margin-left: 400px;
+
+}
+.over{
+  background-color:lightpink;
+  border:2px solid hotpink;
+  width: 375px;
+  margin-left: 400px;
+
+
+}
+.irc_mi{
+  border: 2px solid lightblue;
+  display:inline-flex;
+}
+
+.sbchill{
+  border:2px solid lightblue;
+
 }
